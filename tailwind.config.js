@@ -24,7 +24,7 @@ export default {
         'text':'#4d4d4d',
         'bubble':'#4d4d4de6',
         'link':'#000000',
-        'footer':'grey'
+        'footer':'#4bb3e3'
       },
     },
   },

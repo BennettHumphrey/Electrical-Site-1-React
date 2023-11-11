@@ -10,18 +10,18 @@ const Footer = () => {
       h-20 my-auto text-center leading-[4.8rem]' >Fake Electric</h3>
       <div className='flex flex-col justify-center sm:flex-row sm:mb-8' >
           <div className='flex flex-col justify-center' >
-              <h4 className='text-text-light border-b-[2px] border-b-accent
+              <h4 className='text-text-light border-b-[2px] border-b-main
               max-w-[200px] my-8 mx-4' >Fake Electric LTD</h4>
               <div className='my-2 mx-4 flex text-footer-text items-center' >
-                  <div className='flex justify-center items-center border border-accent mr-2 w-[35px] h-[35px]' >
-                    <HiPhone className='text-accent h-full w-full p-2' />
+                  <div className='flex justify-center items-center border border-main mr-2 w-[35px] h-[35px]' >
+                    <HiPhone className='text-main h-full w-full p-2' />
                   </div>
                   <p>(250)-555-5555</p>
               </div>
               <div className='my-2 mx-4 flex text-footer-text items-center'>
-                  <div className='flex justify-center items-center border border-accent mr-2 w-[35px] h-[35px]'>
+                  <div className='flex justify-center items-center border border-main mr-2 w-[35px] h-[35px]'>
                     <a href="mailto:bennetthumphrey98@gmail.com">
-                      <HiEnvelope className='text-accent h-full w-full p-2' />
+                      <HiEnvelope className='text-main h-full w-full p-2' />
                     </a>
                   </div>
                   <a href="mailto:bennetthumphrey98@gmail.com">
@@ -30,17 +30,17 @@ const Footer = () => {
               </div>
           </div>
           <div className='flex justify-center flex-col' >
-              <h4 className='text-text-light border-b-[2px] border-b-accent
+              <h4 className='text-text-light border-b-[2px] border-b-main
               max-w-[200px] my-8 mx-4'>Social Media</h4>
               <div className='flex ml-4 pb-12' >
-                  <div className='flex justify-center items-center bg-accent ml-[0.2rem] w-[60px] h-[60px]'  >
-                    <CgInstagram className='text-gray-300 w-3/5 h-3/5' />
+                  <div className='flex justify-center items-center bg-main ml-[0.2rem] w-[60px] h-[60px]'  >
+                    <CgInstagram className='text-footer w-3/5 h-3/5' />
                   </div>
-                  <div className='flex justify-center items-center bg-accent ml-[0.2rem] w-[60px] h-[60px]' >
-                    <CgFacebook className='text-gray-300 w-3/5 h-3/5' />
+                  <div className='flex justify-center items-center bg-main ml-[0.2rem] w-[60px] h-[60px]' >
+                    <CgFacebook className='text-footer w-3/5 h-3/5' />
                   </div>
-                  <div className='flex justify-center items-center bg-accent ml-[0.2rem] w-[60px] h-[60px]' >
-                    <FaLinkedinIn className='text-gray-300 w-3/5 h-3/5' />
+                  <div className='flex justify-center items-center bg-main ml-[0.2rem] w-[60px] h-[60px]' >
+                    <FaLinkedinIn className='text-footer w-3/5 h-3/5' />
                   </div>
               </div>
           </div>

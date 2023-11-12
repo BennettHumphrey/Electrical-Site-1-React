@@ -1,8 +1,8 @@
 import React from 'react'
 
-const InfoSection = ({ header, body }) => {
+const InfoSection = ({ header, body, href }) => {
   return (
-    <div className='w-full py-12 bg-main'>
+    <div id={href} className='w-full py-12 bg-main'>
         <h2 className='font-serif text-2xl font-bold px-8 text-center 
                       mb-6 max-w-[500px] m-auto'>
           {header}

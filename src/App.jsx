@@ -9,15 +9,16 @@ import { about, services } from './assets/data'
 function App() {
 
   return (
-    <div className='h-full'>
+    <>
       <Nav  />
       <Banner  />
-      <InfoSection header = {services.header} />
+      <InfoSection href={services.href} header = {services.header} />
       <BubblesSection bubbles = {services.bubbles} img = {services.img} />
-      <InfoSection header = {about.header} body = {about.body} />
+      <InfoSection href={services.href} header = {about.header} body = {about.body} />
       <BubblesSection bubbles = {about.bubbles} img = {about.img} />
       <Footer  />
-    </div>
+    </>
+
   )
 }
 

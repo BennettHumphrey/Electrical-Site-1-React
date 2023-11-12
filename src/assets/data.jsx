@@ -1,13 +1,14 @@
 
 
 
-
+export const logo = 'Company-Logo.png'
 
 
 export const services = {
     header: 'We do all types of Residential and Commercial projects!',
     body: '',
-    img: 'bg-[url(./imgs/Office-Interior-1200.webp)]',
+    img: 'bg-[url(/Burnt-Light.jpg)]',
+    href:'#services',
     bubbles: [
         {
             header: 'Electrical Projects',
@@ -18,8 +19,8 @@ export const services = {
             body: 'Residential, commercial or industrial routing, maintenance, and connection of fibre optic systems.',
         },
         {
-            header: 'Voice Data Communications',
-            body: 'Residential, commercial or industrial routing, maintenance, and connection of fibre optic systems.',
+            header: 'Data & Security Wiring',
+            body: 'Residential or commercial routing, connection, and maintenance of data and security systems, everything from cameras to WiFi networks.',
         },
     ]
 }
@@ -29,7 +30,8 @@ export const services = {
 export const about = {
     header: "We Proudly Exceed our Customers' Expectations.",
     body: 'At Fake Electric, we are committed to our customers, and we always strive to better understand their needs. At Fake Electric we believe in efficient teamwork that always includes regular communication amongst our staff. We do this by applying a very high standard of work in everything we do.',
-    img: 'bg-[url(./imgs/Outdoor-Panel-1200.webp)]',
+    img: 'bg-[url(/Coal-Harbour-Dark.jpg)]',
+    href:'#about',
     bubbles: [
         {
             header: '',

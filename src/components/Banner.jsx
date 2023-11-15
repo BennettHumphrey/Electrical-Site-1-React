@@ -24,7 +24,7 @@ const [modalOpen, setModalOpen] = useState(false)
           <p className='text-main bg-bubble text-center text-xl font-bold rounded-2xl
                           w-[80%] max-w-[300px] m-auto p-1 font-serif lg:max-w-[360px]' >
             To contact an electrician call
-            206-555-5555 now!
+            250-555-5555 now!
           </p>
           <button className='flex justify-center items-center bg-main w-[10rem]
               h-8 my-[2%] mx-auto rounded-full text-center transition duration-700

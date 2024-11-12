@@ -12,7 +12,7 @@ const [modalOpen, setModalOpen] = useState(false)
       {modalOpen && <Modal setModalOpen={setModalOpen} />}
       <div className='bg-[url(/Vancouver-Sunset.jpg)] h-[440px]
                       bg-cover bg-fixed flex flex-col gap-20
-                      lg:flex-row lg:justify-center lg:gap-40
+                      sm:flex-row sm:justify-center lg:gap-40
                       xl:h-[65vw] max-h-[85vh]'>
         <div className='flex justify-center items-center my-6' >
           <img

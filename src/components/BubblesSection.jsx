@@ -1,9 +1,8 @@
 import React from 'react'
-import { useWindowWidth } from '../assets/useWindowWidth'
 
 const BubblesSection = ({ bubbles, img, imgPos }) => {
 
-  const width = useWindowWidth()
+
 
 
   return (
